@@ -8,3 +8,6 @@ def multiplie (a,b):
 
 def divise (a,b):
 	return a/b
+
+def soustrait (a,b):
+	return a-b
