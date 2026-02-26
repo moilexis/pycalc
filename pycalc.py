@@ -5,3 +5,6 @@ def additionne (a,b):
 	
 def multiplie (a,b):
 	return a*b
+
+def divise (a,b):
+	return a/b
