@@ -6,11 +6,15 @@ def additionne (a,b):
 	
 def multiplie (a,b):
 	resultat = 0
-	for i in range (abs(b)):
+	for i in range (abs(int(b))):
 		resultat = resultat +a
+
+	reste = b-int(b)
+	resultat = resultat + a*abs(reste)
 	if b<0 : 
 		return -resultat
 	return resultat
+
 
 def divise (a,b):
 	return a/b
